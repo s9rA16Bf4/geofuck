@@ -7,7 +7,7 @@ Just like brainfuck, you can make the code simple or unnecessary hard depending 
 Compared to good old brainfuck where you hade a horizontel layout consisting of 30k cells, we choice to up it by quite a bit.<br/>
 This was done by expanding the layout to a fully scaled grid 30kx30k system.
 
-![image](https://user-images.githubusercontent.com/14398606/206286369-d8ebd9b2-4d53-4fbf-a956-974060b3fbdd.png)
+![image](https://user-images.githubusercontent.com/14398606/206286738-512f678f-bcdf-471d-b074-64bd129cdf99.png)
 
 ## Rule set
 
