@@ -39,9 +39,13 @@ Take a look at the following examples for how they are used.
 Two different kinds of views are currently supported.
 
 ##### Detailed view
-Detailed view show cases essentially every cell in the grid, it's limited to only showing five cells at once.
+Detailed view show cases essentially every cell in the grid, it's limited to only showing five cells at once before asking for a user input.
+<b>Note:</b> The view is shown after execution of the provided script/string
+```
+./gf -f examples/hello_world.gf -dv
+```
 
-<image>
+![image](https://user-images.githubusercontent.com/14398606/206398299-2abb7a07-f0a9-4ce5-9c39-2e2d23893d1f.png)
 
 #### Step-by-step view
 Step-by-step view shows what the current cell contains after each command.
