@@ -232,7 +232,7 @@ void advance_view(int limit){
     for (cell_map.y_cord = 0; cell_map.y_cord < limit; cell_map.y_cord++){
         for (cell_map.x_cord = 0; cell_map.x_cord < limit; cell_map.x_cord++){
             if (cell_map.x_cord%5 == 0 && cell_map.x_cord != 0){
-                std::cout << std::endl << "# Press enter to continue" << std::endl;
+                std::cout << std::endl << "# Press enter to continue";
                 std::cin.get(); // Makes the user press enter to continue
             }
 
