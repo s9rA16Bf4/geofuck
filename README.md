@@ -102,7 +102,7 @@ On top of that, we also dont support the same type of loops inside of each other
 ```
 
 #### Comments
-Compared to brainfuck we can't allow "normal" text to be allowed within a script file, this as we utilizes some of the <br/>
+Compared to brainfuck we can't allow "normal" text to be allowed within a script file, this as we utilizes some of the
 most common characters for our navigation. <br/><br/>
 Because of this all comments must start with a `§` character and can't appear on the same line as any code <br/>
 In general it's best to utilize the first rows of each file to explain what the file in question peforms.<br/>
