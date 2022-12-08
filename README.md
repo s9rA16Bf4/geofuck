@@ -62,6 +62,10 @@ The good old `Hello World!` in brainfuck
 
 And now how it *can* look in geofuck!
 ```
++++++++++e+++[-w*e]w.e+++e+++[w*e-]w+e++[w*e-]w+.e+++***+**e++**[w+e-]w.
+e+++***+**e++**[w+e-]w.e+++***+**e++*+*[w+e-]w+.e++*+*+**.
+e++*e++[w*e-]w*.e++*+**+*+*+.e+++***+**e++*+*[w+e-]w+.e+++***+**e++*+*[w+e-]w++++.
+e+++***+**e++**[w+e-]w.e+++***+**.e++*e++[w*e-]w*+.
 ```
 
 #### Simpel Art

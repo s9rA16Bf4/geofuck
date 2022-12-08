@@ -5,7 +5,7 @@ BIN := gf
 RM := rm
 
 compile:
-	$(CC) $(SRC)/*.cpp -I$(LIB) -o $(BIN)
+	$(CC) $(SRC)/*.cpp -I$(LIB) -o $(BIN) -g3
 
 
 clean:
