@@ -50,7 +50,11 @@ Detailed view show cases essentially every cell in the grid, it's limited to onl
 #### Step-by-step view
 Step-by-step view shows what the current cell contains after each command.
 
-<image>
+```
+./gf -f examples/hello_world.gf -sv
+```
+
+![image](https://user-images.githubusercontent.com/14398606/206398733-aef5fcad-bc6c-4b76-b88d-519d3a47803e.png)
 
 ## Rule set
 
