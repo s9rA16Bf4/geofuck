@@ -251,7 +251,7 @@ void advance_view(int limit){
 
 // Prints the action peformed and the value of the current cell
 void step_by_step_view(char instruction){
-    std::cout << "(" <<cell_map.x_cord << ", "<< cell_map.y_cord << ")" << ": [";
+    std::cout << "(" <<cell_map.x_cord << ", "<< cell_map.y_cord << ")" << ": ['";
     
     print(cell_map.grid[cell_map.x_cord][cell_map.y_cord]);
 
