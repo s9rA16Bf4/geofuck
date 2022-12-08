@@ -1,6 +1,7 @@
 #include <math.h>
 #include "interpreter.hpp"
 #include "notify.hpp"
+#include "tools.hpp"
 
 struct cell_map_t{
     int** grid;
@@ -31,16 +32,6 @@ struct cell_map_t{
     }
 
 } cell_map;
-
-
-// Prints the provided @value either as a char or as an integer
-void print(int value){
-    if (value >= 32 && value <= 57 || value >= 58 && value <= 126){ // Autoconvert if it's readable chars!
-        std::cout << (char)value;
-    }else{
-        std::cout << value;
-    }
-}
 
 
 // Parses the input file and executes the instructions found
@@ -174,9 +165,20 @@ void parsing_n_execution(std::string line, int line_number, bool step_by_step){
                 print(cell_map.grid[cell_map.x_cord][cell_map.y_cord]);
                 break;
 
+            case ':': // Prints the cells value but with a newline in at the end
+                print(cell_map.grid[cell_map.x_cord][cell_map.y_cord]);
+                std::cout << std::endl;
+                break;
 
             case ',': // Grab an input from the user
                 cell_map.grid[cell_map.x_cord][cell_map.y_cord] = getchar();
+                clean_input_buffer();
+                break;
+
+            case ';': // Grab user input and prints it
+                cell_map.grid[cell_map.x_cord][cell_map.y_cord] = getchar();
+                print(cell_map.grid[cell_map.x_cord][cell_map.y_cord]);
+                clean_input_buffer();
                 break;
 
             // Control flow

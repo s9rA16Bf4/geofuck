@@ -12,3 +12,8 @@ void runtime_error(std::string msg, int line, int column){
     std::cout << "* Column: " << column+1 << std::endl;
     exit(EXIT_FAILURE);
 }
+
+
+void notify(std::string msg){
+    std::cout << "[~] " << msg << std::endl;
+}
