@@ -45,7 +45,7 @@ Detailed view show cases essentially every cell in the grid, it's limited to onl
 ./gf -f examples/hello_world.gf -dv
 ```
 
-![image](https://user-images.githubusercontent.com/14398606/206398299-2abb7a07-f0a9-4ce5-9c39-2e2d23893d1f.png)
+![image](https://user-images.githubusercontent.com/14398606/206399488-634d88b0-83e7-46e0-b993-af7ac965a7f4.png)
 
 #### Step-by-step view
 Step-by-step view shows what the current cell contains after each command.
